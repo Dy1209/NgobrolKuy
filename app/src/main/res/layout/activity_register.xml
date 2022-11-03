@@ -49,13 +49,14 @@
             app:cardCornerRadius="40dp"
             android:backgroundTint="@color/white">
 
-            <TextView
+            <EditText
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Masukkan username Anda"
                 android:textSize="8pt"
-                android:textColor="@color/light_gray"/>
+                android:textColor="@color/light_gray"
+                android:background="@android:color/transparent"/>
 
         </androidx.cardview.widget.CardView>
 
@@ -76,13 +77,14 @@
             app:cardCornerRadius="40dp"
             android:backgroundTint="@color/white">
 
-            <TextView
+            <EditText
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Masukkan email Anda"
                 android:textSize="8pt"
-                android:textColor="@color/light_gray"/>
+                android:textColor="@color/light_gray"
+                android:background="@android:color/transparent"/>
 
         </androidx.cardview.widget.CardView>
 
@@ -103,13 +105,14 @@
             app:cardCornerRadius="40dp"
             android:backgroundTint="@color/white">
 
-            <TextView
+            <EditText
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Masukkan password Anda"
                 android:textSize="8pt"
-                android:textColor="@color/light_gray"/>
+                android:textColor="@color/light_gray"
+                android:background="@android:color/transparent"/>
 
         </androidx.cardview.widget.CardView>
 
@@ -130,13 +133,14 @@
             app:cardCornerRadius="40dp"
             android:backgroundTint="@color/white">
 
-            <TextView
+            <EditText
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Masukkan lagi password Anda"
                 android:textSize="8pt"
-                android:textColor="@color/light_gray"/>
+                android:textColor="@color/light_gray"
+                android:background="@android:color/transparent"/>
 
         </androidx.cardview.widget.CardView>
 
@@ -153,6 +157,7 @@
         android:layout_marginTop="32dp">
 
         <TextView
+            android:id="@+id/tvRegister"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="REGISTER"
@@ -168,6 +173,7 @@
     </androidx.cardview.widget.CardView>
 
     <TextView
+        android:id="@+id/tvToLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sudah punya akun?"
